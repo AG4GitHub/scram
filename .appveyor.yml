@@ -1,11 +1,12 @@
+branches:
+    except:
+        - coverity-scan
+        - l10n_develop
+
 clone_depth: 50
 
 platform:
     - x64
-
-branches:
-    except:
-        - l10n_develop
 
 cache:
     - .ccache
